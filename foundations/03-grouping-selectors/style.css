@@ -1,0 +1,16 @@
+/* styles groping selectors */
+
+.clicker, 
+.click-click{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.clicker{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.click-click{
+    background-color: yellow;
+}
