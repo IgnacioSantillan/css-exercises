@@ -3,10 +3,8 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 12px;
-}
 
+/* move .small-para to the bottom */
 .para {
   font-size: 22px;
 }
@@ -17,19 +15,37 @@
   font-size: 20px;
   font-weight: bold;
 } 
-
+/* this is one solution but we could move it next to .button for specifity */
+#confirm-button {
+  background-color: green;
+  color: white;
+   font-size: 20px;
+  font-weight: bold;
+}
 .button {
   background-color: #ffc0cb;
   color: black;
   font-size: 20px;
 }
+/*
+.button.confirm {
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}*/
 
-.child {
-  color: red;
-  font-size: 14px;
-}
+
 
 div.text {
   color: green;
   font-size: 28px;
+}
+.text .child {
+  color: red;
+  font-size: 14px;
+}
+
+.small-para {
+  font-size: 12px;
 }
